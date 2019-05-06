@@ -1,9 +1,28 @@
-var globalArray = [5, 6, 3, 2, 9];
-function nonMutatingSort(arr) {
-  // Add your code below this line
-  return [].concat(arr).sort(function(a, b) {
-    return a - b;
-  });
-  // Add your code above this line
+let user = {
+  name: 'Kenneth',
+  age: 28,
+  data: {
+    username: 'kennethCodesAllDay',
+    joinDate: 'March 26, 2016',
+    organization: 'freeCodeCamp',
+    friends: [
+      'Sam',
+      'Kira',
+      'Tomo'
+    ],
+    location: {
+      city: 'San Francisco',
+      state: 'CA',
+      country: 'USA'
+    }
+  }
+};
+
+function addFriend(userObj, friend) {
+  // change code below this line  
+  userObj.data.friends.push(friend);
+  return userObj.data.friends;
+  // change code above this line
 }
-nonMutatingSort(globalArray);
+
+console.log(addFriend(user, 'Pete'));

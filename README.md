@@ -1,1 +1,1 @@
-Use the concat method in the nonMutatingConcat function to concatenate attach to the end of original. The function should return the concatenated array.
+Use the sort method in the nonMutatingSort function to sort the elements of an array in ascending order. The function should return a new array, and not mutate the globalArray variable.

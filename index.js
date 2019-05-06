@@ -1,10 +1,9 @@
-function nonMutatingConcat(original, attach) {
+var globalArray = [5, 6, 3, 2, 9];
+function nonMutatingSort(arr) {
   // Add your code below this line
-  
-  return original.concat(attach); 
-  
+  return [].concat(arr).sort(function(a, b) {
+    return a - b;
+  });
   // Add your code above this line
 }
-var first = [1, 2, 3];
-var second = [4, 5];
-nonMutatingConcat(first, second);
+nonMutatingSort(globalArray);

@@ -1,7 +1,14 @@
-const JSX = (
-  <div>
-    <h1>This is a block of JSX</h1>
-    <p>Here's a subtitle</p>
-  </div>
-);
-{/*<h1>Hanoi University of Science</h1>*/}
+class MyComponent extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    // change code below this line
+    return (
+      <div>
+       <h1>Hello React!</h1>
+      </div>
+    );
+    // change code above this line
+  }
+};

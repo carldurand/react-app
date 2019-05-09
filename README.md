@@ -1,6 +1,8 @@
-- JSX is a syntax that gets compiled into valid JavaScript. Sometimes, for readability, you might need to add comments to your code. Like most programming languages, JSX has its own way to do this.
-
--  To put comments inside JSX, you use the syntax {/* */} to wrap around the comment text.
+MyComponent is defined in the code editor using class syntax. Finish writing the render method so it returns a div element that contains an h1 with the text Hello React!.
 
 
-- The code editor has a JSX element similar to what you created in the last challenge. Add a comment somewhere within the provided div element, without modifying the existing h1 or p elements.
+The React component should return a div element.
+Passed
+The returned div should render an h1 header within it.
+Passed
+The h1 header should contain the string Hello React!.
